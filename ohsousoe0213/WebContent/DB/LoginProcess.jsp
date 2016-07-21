@@ -18,9 +18,9 @@
 		String Enter_ID = request.getParameter("EnterID");
 		String Enter_PW = request.getParameter("EnterPW");
 		
-		String DB_URL = "jdbc:mysql://localhost:3306/seongjun0926";
-		String DB_USER = "seongjun0926";
-		String DB_PASSWORD = "wnsduqrud0119";
+		String DB_URL = "~";
+		String DB_USER = "~";
+		String DB_PASSWORD = "~";
 		
 		String Get_ID = "";
 		String Get_PW = "";

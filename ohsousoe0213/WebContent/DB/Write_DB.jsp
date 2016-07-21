@@ -23,9 +23,9 @@ String Write_Email=request.getParameter("InputEmail");
 String Write_Phone=request.getParameter("InputPhone");
 
 //db연결 위한 정보들
-String DB_URL = "jdbc:mysql://localhost:3306/seongjun0926";
-String DB_USER = "seongjun0926";
-String DB_PASSWORD= "wnsduqrud0119";
+String DB_URL = "~";
+String DB_USER = "~";
+String DB_PASSWORD= "~";
 
 Class.forName("com.mysql.jdbc.Driver");
 Connection conn=null;
